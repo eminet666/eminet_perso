@@ -98,7 +98,7 @@
 
     <script>
         var b = document.querySelector('#bouton');
-        var audio = document.querySelector('#zorba');
+        var son = document.querySelector('#zorba');
 
         var AudioContext = window.AudioContext || window.webkitAudioContext;
         var contexteAudio = new AudioContext;
@@ -112,21 +112,21 @@
             {
                   contexteAudio.resume();
                   console.log('Playback resumed successfully');
-                  audio.play();
-                  audio.muted = false;
+                  son.play();
                   b.innerHTML = "SON OFF";
                   console.log("SON OFF");
             }
             else {
                   contexteAudio.suspend();
                   console.log('Playback paused successfully');
-                  audio.muted = true;
+                  son.pause();
                   b.innerHTML = "SON ON";
                   console.log("SON ON");
             }
             //document.removeEventListener("click", resumeAudio);
         }
         b.onclick = resumeAudio;
+
       </script>
 
 
