@@ -92,6 +92,45 @@
 
         <a-camera wasd-controls-enabled="false"></a-camera>
     </a-scene>
+
+    <!-- GESTION AUDIO -->
+    <button id="bouton" style="position: absolute; left: 20px; bottom: 20px;">SON ON</button>
+
+    <script>
+        var b = document.querySelector('#bouton');
+        var audio = document.querySelector('#zorba');
+
+        var AudioContext = window.AudioContext || window.webkitAudioContext;
+        var contexteAudio = new AudioContext;
+
+        unlockAudioIOS(contexteAudio); // ok pour context = AudioContext;
+
+        function resumeAudio() {
+            console.log(contexteAudio.state);
+
+            if(contexteAudio.state == "suspended")
+            {
+                  contexteAudio.resume();
+                  console.log('Playback resumed successfully');
+                  audio.play();
+                  audio.muted = false;
+                  b.innerHTML = "SON OFF";
+                  console.log("SON OFF");
+            }
+            else {
+                  contexteAudio.suspend();
+                  console.log('Playback paused successfully');
+                  audio.muted = true;
+                  b.innerHTML = "SON ON";
+                  console.log("SON ON");
+            }
+            //document.removeEventListener("click", resumeAudio);
+        }
+        b.onclick = resumeAudio;
+      </script>
+
+
+
 </body>
 
 </html>
