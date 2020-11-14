@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@3.0.3/dist/aframe-event-set-component.min.js"></script>
+    <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
+    <script src="./js/unlock_audio_ios.js"></script>
+    <script>
+    // SHADOW MATERIAL : 1 parametre opacite
+    AFRAME.registerComponent('shadow-material', {
+        schema: {
+            opacite: {type: 'number', default: 0.5}
+        },
+        init: function(){
+            let el = this.el;
+            let mesh = el.getObject3D('mesh');
+            // console.log(mesh);
+            if (!mesh){return;}
+            mesh.material = new THREE.ShadowMaterial();
+            mesh.material.opacity = this.data.opacite;
+        }
+    });
+    </script>
+
+    <style>
+        #info { position: absolute; bottom: 30px; left: 20px;
+            font-size: 1em; background-color: white;}
+    </style>
+
+  </head>
+
+  <body style="margin: 0; overflow: hidden;">
+    <p id="info"><b>Teach me to dance !</b>
+        <br>autoriser la localisation et l'usage de la caméra
+        <br>tournez se smartphone autour de vous (mode portrait)
+    </p>
+    <a-scene embedded
+             arjs="sourceType: webcam; trackingMethod: best; debugUIEnabled: false;"
+             vr-mode-ui="enabled: false">
+
+        <a-assets>
+            <a-asset-item id="3Dmodel" src="./assets/models/alizee_leo.glb"></a-asset-item>
+            <!-- <a-asset-item id="3Dmodel" src="./assets/models/antoine_hugo.glb"></a-asset-item> -->
+            <audio id="zorba" src="./assets/audio/zorba.mp3" preload="auto" loop="false"></audio>
+        </a-assets>
+
+        <!-- MODELE -->
+        <a-entity  id ="danseur" position="0 0 0" rotation="90 90 0"
+                   scale="6 6 6"
+                   gltf-model="#3Dmodel"
+                   gps-entity-place="latitude: 48.86065; longitude: 2.37396;"
+                   animation-mixer>
+        </a-entity>
+
+        <!-- <a-sphere position="0 0 0" scale="0.1 0.1 0.1"
+                  material="color: yellow;"
+                  look-at="[gps-camera]"
+                  gps-entity-place="latitude: 48.86067; longitude: 2.37398;">
+        </a-shere> -->
+
+      <a-camera gps-camera='gpsMinDistance: 5' rotation-readerlook-controls-enabled='false' arjs-look-controls='smoothingFactor: 0.1'> </a-camera>
+    </a-scene>
+
+    <!-- GESTION AUDIO -->
+    <button id="bouton" style="position: absolute; left: 20px; bottom: 20px;">SON ON</button>
+
+    <script>
+        var b = document.querySelector('#bouton');
+        var i = document.querySelector('#info');
+        var audio = document.querySelector('#zorba');
+
+        var AudioContext = window.AudioContext || window.webkitAudioContext;
+        var contexteAudio = new AudioContext;
+
+        unlockAudioIOS(contexteAudio); // ok pour context = AudioContext;
+
+        function resumeAudio() {
+            console.log(contexteAudio.state);
+
+            if(contexteAudio.state == "suspended")
+            {
+                  contexteAudio.resume();
+                  console.log('Playback resumed successfully');
+                  audio.play();
+                  audio.muted = false;
+                  b.innerHTML = "SON OFF";
+                  console.log("SON OFF");
+                  //i.style.visibility = "hidden";
+            }
+            else {
+                  contexteAudio.suspend();
+                  console.log('Playback paused successfully');
+                  audio.muted = true;
+                  b.innerHTML = "SON ON";
+                  console.log("SON ON");
+            }
+            //document.removeEventListener("click", resumeAudio);
+        }
+        b.onclick = resumeAudio;
+      </script>
+
+  </body>
+</html>
