@@ -1,0 +1,63 @@
+<!-- https://glitch.com/~gftruj-aframe-twosounds -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <script>
+      AFRAME.registerComponent("button", {
+        init: function() {
+          let meowBox = document.querySelector("#meowBox");
+          let barkBox = document.querySelector("#barkBox");
+          console.log(meowBox, barkBox);
+          let playing = false;
+
+          meowBox.addEventListener("sound-ended", e => {
+            meowBox.setAttribute("color", "red");
+            barkBox.setAttribute("color", "green");
+
+            barkBox.components.sound.playSound();
+          });
+
+          barkBox.addEventListener("sound-ended", e => {
+            barkBox.setAttribute("color", "red");
+            playing = false;
+          });
+
+          this.el.addEventListener("click", e => {
+            if (playing) return;
+            playing = true;
+
+            meowBox.components.sound.playSound();
+            meowBox.setAttribute("color", "green");
+          });
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <a-scene cursor="rayOrigin: mouse">
+      <a-box button position="-1.25 1 -3" color="blue">
+        <a-text color="black" position="-1 0.75 0" value="click here"></a-text>
+      </a-box>
+      <a-box id="meowBox" position="0 1 -3" sound="src: url(https://cdn.glitch.com/2466e797-d56a-4ebf-8fb1-7da12d5ab8ab%2Fmeow.mp3); preload: true" color="red">
+        <a-text color="black" position="-0.5 0.75 0" value="meow"></a-text>
+      </a-box>
+      <a-box id="barkBox" position="1.25 1 -3" sound="src: url(https://cdn.glitch.com/2466e797-d56a-4ebf-8fb1-7da12d5ab8ab%2Fbark.mp3); preload: true" color="red">
+        <a-text color="black" position="0 0.75 0" value="bark"></a-text>
+      </a-box>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
