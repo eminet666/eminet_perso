@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- SCRIPTS -->
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
+    <script src="https://unpkg.com/aframe-webcentric-component@0.0.2/dist/aframe-webcentric-component.min.js"></script>
+    <script src="../js/unlock_audio_ios.js"></script>
+
+    <script>
+        var log = true;
+
+        // CHARGEMENT MODELE
+        AFRAME.registerComponent('model_loaded', {
+            init: function() {
+                var el = this.el;
+                el.addEventListener('model-loaded', () => {
+                    if (log) console.log(">>>> modele chargé " + el.id);
+                });
+                el.addEventListener('model-error', () => {
+                    if (log) console.log(">>>> modele erreur" + el.id);
+                });
+            }
+        });
+        // CHARGEMENT SON
+        AFRAME.registerComponent('sound_loaded', {
+            init: function() {
+                var el = this.el;
+                el.addEventListener('sound-loaded', () => {
+                    if (log) console.log(">>>> son chargé : " + el.id);
+                });
+                this.el.addEventListener('sound-error', () => {
+                    if (log) console.log(">>>> son erreur : " + el.id);
+                });
+            }
+        });
+
+        // SHADOW MATERIAL : 1 parametre opacite
+        AFRAME.registerComponent('shadow-material', {
+            schema: {
+                opacite: {
+                    type: 'number',
+                    default: 0.5
+                }
+            },
+            init: function() {
+                let el = this.el;
+                let mesh = el.getObject3D('mesh');
+                // console.log(mesh);
+                if (!mesh) {
+                    return;
+                }
+                mesh.material = new THREE.ShadowMaterial();
+                mesh.material.opacity = this.data.opacite;
+            }
+        });
+    </script>
+</head>
+
+
+<body style='margin : 0px; overflow: hidden;'>
+
+    <a-scene webcentric>
+
+        <a-assets>
+            <a-asset-item id="glbAlizee" src="../assets/models/alizee_leo.glb"></a-asset-item>
+            <a-asset-item id="glbAntoine" src="../assets/models/antoine_hugo.glb"></a-asset-item>
+            <audio id="zorba" src="../assets/audio/zorba_64.mp3" preload="auto" loop="false"></audio>
+            <img id="lieu" crossorigin="anonymous" src="../assets/view360/foch.jpg" />
+        </a-assets>
+
+        <!-- ECLAIRAGES -->
+        <a-entity light="type: ambient; color: #CCC; intensity: 1"></a-entity>
+        <a-entity light="type: directional; castShadow:true; intensity: 0.5" position="-1 2 1"></a-entity>
+
+        <!-- ECLAIRAGES -->
+    	<a-entity id="vol" sound="src: #zorba" sound_loaded></a-entity>
+
+        <!-- MODELES 3D -->
+        <a-entity id="alizee" scale= "0.8 0.8 0.8" position="-0.7 0 -4" rotation="90 0 90"
+            gltf-model="#glbAlizee"
+            model_loaded
+            animation-mixer
+            shadow="cast:true; receive:true">
+        </a-entity>
+
+        <a-entity id="antoine" scale= "0.8 0.8 0.8" position="0.3 0 -4" rotation="90 0 90"
+            gltf-model="#glbAntoine"
+            model_loaded
+            animation-mixer
+            shadow="cast:true; receive:true">
+        </a-entity>
+
+        <a-plane position="0 0 -4" rotation="-90 0 0" width="8" height="8" color="#CCCCCC" shadow="receive: true" shadow-material="opacite: 0.3">
+        </a-plane>
+
+        <a-sky src="#lieu" rotation="0 -90 0"></a-sky>
+
+        <a-camera wasd-controls-enabled="false"></a-camera>
+    </a-scene>
+
+    <!-- GESTION AUDIO -->
+    <button id="bouton" style="position: absolute; left: 20px; bottom: 20px;">SON ON</button>
+
+    <script>
+        var b = document.querySelector('#bouton');
+        var son = document.querySelector('#zorba');
+
+        var AudioContext = window.AudioContext || window.webkitAudioContext;
+        var contexteAudio = new AudioContext;
+
+        unlockAudioIOS(contexteAudio); // ok pour context = AudioContext;
+
+        function resumeAudio() {
+            console.log(contexteAudio.state);
+
+            if(contexteAudio.state == "suspended")
+            {
+                  contexteAudio.resume();
+                  console.log('Playback resumed successfully');
+                  son.play();
+                  b.innerHTML = "SON OFF";
+                  console.log("SON OFF");
+            }
+            else {
+                  contexteAudio.suspend();
+                  console.log('Playback paused successfully');
+                  son.pause();
+                  b.innerHTML = "SON ON";
+                  console.log("SON ON");
+            }
+            //document.removeEventListener("click", resumeAudio);
+        }
+        b.onclick = resumeAudio;
+
+      </script>
+
+
+
+</body>
+
+</html>
