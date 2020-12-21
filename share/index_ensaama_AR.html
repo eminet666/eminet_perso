@@ -21,26 +21,11 @@
         let duree_pas = [2, 6, 4, 2.5, 5.5, 5];
 
         // périodes danse en secondes
-        let danse = [{
-                debut: 0,
-                vitesse: 0.7
-            },
-            {
-                debut: 56,
-                vitesse: 1
-            },
-            {
-                debut: 99,
-                vitesse: 1.5
-            },
-            {
-                debut: 138,
-                vitesse: 2.5
-            },
-            {
-                debut: 185,
-                vitesse: 5
-            }
+        let danse = [{ debut: 0, vitesse: 0.7},
+                     { debut: 56, vitesse: 1 },
+                     { debut: 99, vitesse: 1.5},
+                     { debut: 138, vitesse: 2.5},
+                     { debut: 185, vitesse: 5}
         ];
 
         // CHARGEMENT MODELE
@@ -175,7 +160,7 @@
                   delay_ready="audio: zorba; delai: 5000;" sirtaki
                   gps-entity-place="latitude: 48.833902; longitude: 2.295127;">
         </a-entity>
-        
+
         <a-plane position="0 0 0" rotation="-90 0 0" width="8" height="8" color="#CCCCCC" shadow="receive: true" shadow-material="opacite: 0.5">
         </a-plane>
 
