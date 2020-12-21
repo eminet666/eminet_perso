@@ -9,7 +9,7 @@
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar-nft.js"></script>
-    <script src="./js/unlock_audio_ios.js"></script>
+    <script src="../js/unlock_audio_ios.js"></script>
 
     <script>
         const pas = "pas_0";
@@ -133,7 +133,7 @@
         #musique {
             position: absolute;
             left: 10px;
-            bottom: 50px;
+            bottom: 10px;
             width: 800px;
             height: 30px;
             display: flex;
@@ -145,19 +145,6 @@
 
         #contexte {
             height: 30px;
-        }
-
-        #menu {
-            position: absolute;
-            left: 10px;
-            bottom: 10px;
-            width: 800px;
-            height: 30px;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: flex-start;
-            border: dotted black 1px;
         }
 
         #idBouton {
@@ -177,8 +164,8 @@
     <a-scene embedded arjs="sourceType: webcam; trackingMethod: best; debugUIEnabled: false;" vr-mode-ui="enabled: false">
 
         <a-assets>
-            <a-asset-item id="glbModel" src="./assets/models/antoine_hugo.glb"></a-asset-item>
-            <audio id="zorba" src="./assets/audio/zorba.mp3" preload="auto" loop="false"></audio>
+            <a-asset-item id="glbModel" src="../assets/models/antoine_hugo.glb"></a-asset-item>
+            <audio id="zorba" src="../assets/audio/zorba_64_light.mp3" preload="auto" loop="false"></audio>
         </a-assets>
 
         <a-entity id="model3D" gltf-model="#glbModel"
@@ -201,10 +188,6 @@
         <p id="info"></p>
         <p id="current"></p>
         <p id="pas"></p>
-    </div>
-    <div id="menu">
-        <button id="idBouton">Aller en </button>
-        <p><input type="number" id="idInput" name="idInput" min="1" max="240" maxlength="3" size="3"></p>
     </div>
 
     <script>
@@ -250,15 +233,6 @@
             info.innerHTML = "durée totale : " + son.duration.toFixed(2) + "s";
             periode = getPeriode(courant);
         }
-
-        // synchro
-        var start = document.querySelector('#idBouton');
-
-        function go2synchro() {
-            son.currentTime = goto.value;
-            periode = getPeriode(goto.value);
-        }
-        start.onclick = go2synchro;
 
         function getPeriode(ref) {
             var periode = 0;
