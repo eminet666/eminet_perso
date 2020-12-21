@@ -62,7 +62,8 @@
 </head>
 
 <body style="margin: 0; overflow: hidden;">
-    <a-scene ar>
+    <a-scene embedded arjs="sourceType: webcam; trackingMethod: best; debugUIEnabled: false;" vr-mode-ui="enabled: false">
+
         <a-assets>
             <a-asset-item id="glbModel" src="../assets/models/antoine_hugo.glb"></a-asset-item>
             <audio id="zorba" src="../assets/audio/zorba_64_light.mp3" preload="auto" loop="false"></audio>
@@ -72,8 +73,10 @@
                   position="0 0 0" rotation="90 180 90" scale="1 1 1"
                   model_loaded shadow="cast:true; receive:true"
                   animation-mixer="clip: idle; clampWhenFinished: true; repetitions: 1; duration: 2; "
-                  delay_ready="audio: zorba; delai: 5000;" sirtaki>
+                  delay_ready="audio: zorba; delai: 5000;" sirtaki
+                  gps-entity-place="latitude: 48.86064; longitude: 2.37402;">
         </a-entity>
+        <!-- gps-entity-place="latitude: 48.837220; longitude: 2.307190;"> -->
         <a-plane position="0 0 0" rotation="-90 0 0" width="8" height="8" color="#CCCCCC" shadow="receive: true" shadow-material="opacite: 0.5">
         </a-plane>
 
