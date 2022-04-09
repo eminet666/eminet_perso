@@ -9,33 +9,6 @@
 
 ### séries Lacta
 * [Μικρές Ιστορίες Μεγάλης Αγάπης](./lacta/README.md)
-
-* Μικρές Ιστορίες Μεγάλης Αγάπης 
-[Ep1 _ Κι εγώ σ' αγαπώ](https://www.youtube.com/watch?v=n0oxjmuCsBI) |
-[Ep2 _ Swipe Right](https://www.youtube.com/watch?v=DdM6N-QbSxo) | 
-[Ep3 _ Φίλες για πάντα](https://www.youtube.com/watch?v=GFA2dBbmEOM)
-
-* [Από την αρχή](https://www.youtube.com/watch?v=6PGhGoNyEyw&list=RDCMUCFQi0B8pIJsxFMBDoldEKMg&index=3) | 
-[2](https://www.youtube.com/watch?v=lqpgL4n8_nI&list=RDCMUCFQi0B8pIJsxFMBDoldEKMg&index=23) | 
-[3](https://www.youtube.com/watch?v=tGnJik6rKsk&list=RDCMUCFQi0B8pIJsxFMBDoldEKMg&index=18) | 
-[4](https://www.youtube.com/watch?v=kQft3KOufvI&list=RDCMUCFQi0B8pIJsxFMBDoldEKMg&index=17) |
-[5](https://www.youtube.com/watch?v=FBTj74K-Ruw&list=RDCMUCFQi0B8pIJsxFMBDoldEKMg&index=20)
-
-* [Αγάπα σαν να μην υπάρχει αύριο - Μέρος 1](https://www.youtube.com/watch?v=ZwA-KjHgqqQ) | 
-[Μέρος 2](https://www.youtube.com/watch?v=iF964hjgNFk)
-
-* Love in the end
-[Στη Θεσσαλονίκη](https://www.youtube.com/watch?v=93Lsm6m5kSg&list=PLr2EIY1gw8IH3MfyvSd4IRQm3y6bKfmHK) |
-[Κομμένη σκηνή](https://www.youtube.com/watch?v=mVpzLDdqsqQ)
-[](https://www.loveintheend.gr/videos) |
-[Σκηνή Facebook](https://www.youtube.com/watch?v=Bl_vFBe6yhQ&list=PLr2EIY1gw8IH3MfyvSd4IRQm3y6bKfmHK&index=16) |
-[Σκηνή Κρουαζιέρα](https://www.youtube.com/watch?v=e8Ad3Bfh0cM&list=PLr2EIY1gw8IH3MfyvSd4IRQm3y6bKfmHK&index=17)
-
-
-* [Love in Action - Α μέρος](https://www.youtube.com/watch?v=bD1MmI8BzLE&list=RDCMUCFQi0B8pIJsxFMBDoldEKMg&index=30) | [B](https://www.youtube.com/watch?v=lDI95NnpVhE&list=RDCMUCFQi0B8pIJsxFMBDoldEKMg&index=43) | [C](https://www.youtube.com/watch?v=yjjg7gS5P_A&list=RDCMUCFQi0B8pIJsxFMBDoldEKMg&index=44)
-
-* [messages](https://www.lacta.gr/demo_old)
-
 ### chaines "grec"
 * [super easy greek](https://www.youtube.com/playlist?list=PLA5UIoabheFNO4VVJO7qL5lu7kJofgu5s)
 * [easy greek](https://www.youtube.com/playlist?list=PLA5UIoabheFOFpdSn-QNUDltHseSulwxs)
