@@ -1,14 +1,15 @@
 # eminet_perso
 
-### tuto
-* [valem oculus integration](https://www.youtube.com/watch?v=rnOR1OANIAU&list=PLrk7hDwk64-Y7ELKfkw8ox8TaT9y3gNpS&index=2)
-
-###
+### films grecs
 * [ERTflix](https://www.ertflix.gr/)
 * [Έτερος Εγώ_1h39](https://www.youtube.com/watch?v=y3zho2aV2bs&list=PLszjEioNdP6jEzbnT4h4H7PsaCQ-pU0Hh&index=1)
 * [Το φιλί της Ζωής](https://www.youtube.com/watch?v=1Vzw5jko5_E&list=PLszjEioNdP6jEzbnT4h4H7PsaCQ-pU0Hh&index=3)
 * [ΤΟ ΔΕΙΠΝΟ ΤΟΥ ΒΟΣΚΟΥ](https://www.youtube.com/watch?v=pn9aa1FwKcs)
 
+### chaines "grec"
+* [super easy greek](https://www.youtube.com/playlist?list=PLA5UIoabheFNO4VVJO7qL5lu7kJofgu5s)
+* [easy greek](https://www.youtube.com/playlist?list=PLA5UIoabheFOFpdSn-QNUDltHseSulwxs)
+* [greek easy for you to speak](https://www.youtube.com/channel/UCthXS8o5R6NuQ7mO_21Dbxw)
 
 ### podcast France Culture
 * [quatre contre-sens philo](https://www.franceculture.fr/emissions/series/quatre-contresens-philosophiques)
