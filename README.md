@@ -5,7 +5,13 @@
 * [Έτερος Εγώ_1h39](https://www.youtube.com/watch?v=y3zho2aV2bs&list=PLszjEioNdP6jEzbnT4h4H7PsaCQ-pU0Hh&index=1)
 * [Το φιλί της Ζωής](https://www.youtube.com/watch?v=1Vzw5jko5_E&list=PLszjEioNdP6jEzbnT4h4H7PsaCQ-pU0Hh&index=3)
 * [ΤΟ ΔΕΙΠΝΟ ΤΟΥ ΒΟΣΚΟΥ](https://www.youtube.com/watch?v=pn9aa1FwKcs)
-* [Bons baisers de Grèce](https://www.youtube.com/watch?v=MG8UjTZn1RI)
+* [Νύφες](https://www.youtube.com/watch?v=_xwQOJQJ46w&list=PLADh8o3XktBzJ4jgA6bJRj8HN1ZbZaEwg&index=14)
+* [Το τανγκό των Χριστουγέννων](https://www.youtube.com/watch?v=r4cXFGfqIKk&list=PLADh8o3XktBzJ4jgA6bJRj8HN1ZbZaEwg&index=14)
+
+
+* [Bons baisers de Grèce _ fr](https://www.youtube.com/watch?v=MG8UjTZn1RI)
+* [boy on a dolphin _ sophia loren _ uk](https://www.youtube.com/watch?v=1MXtWFd76MI&list=PL_2rbqqxC44ucO-pOKrivN8jE5zDh7SBD)
+* [Eleni _ guerre civile _ 1985 _ uk](https://www.youtube.com/watch?v=OcT8pX5mBIU&list=PL_2rbqqxC44ucO-pOKrivN8jE5zDh7SBD&index=8)
 
 ### séries Lacta
 * [Μικρές Ιστορίες Μεγάλης Αγάπης](./lacta/README.md)
