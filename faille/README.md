@@ -1,7 +1,7 @@
 ### la faille - το σφάλμα
 * [alcove](./alcove.html)
 * [salon](./salon.html)
-* [verande](./veranda.html)
+* [veranda](./veranda.html)
 * [terrasse1](./terrasse1.html)
 * [terrasse2](./terrasse2.html)
 * [terrasse3](./terrasse3.html)

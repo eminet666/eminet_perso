@@ -29,7 +29,7 @@
 * [apero](./2022_anni360/image360_apero.html)
 
 ### la faille - το σφάλμα
-*[το σφάλμα](./faille/README.md)
+* [το σφάλμα](./faille/README.md)
 
 <!-- ### sirtaki 360
 [Tours](https://eminet666.github.io/eminet_perso/view360/index_libert.html)
