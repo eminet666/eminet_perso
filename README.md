@@ -13,6 +13,9 @@
 * [boy on a dolphin _ sophia loren _ uk](https://www.youtube.com/watch?v=1MXtWFd76MI&list=PL_2rbqqxC44ucO-pOKrivN8jE5zDh7SBD)
 * [Eleni _ guerre civile _ 1985 _ uk](https://www.youtube.com/watch?v=OcT8pX5mBIU&list=PL_2rbqqxC44ucO-pOKrivN8jE5zDh7SBD&index=8)
 
+* [videa portail films grec streaming](https://videa.hu/cimkek/-537182)
+* [videa Από Έρωτα (Με υπότιτλους)](https://videa.hu/videok/film-animacio/atlvOVoY43CqdfG1)
+
 ### séries Lacta
 * [Μικρές Ιστορίες Μεγάλης Αγάπης](./lacta/README.md)
 ### chaines "grec"
@@ -29,7 +32,7 @@
 * [apero](./2022_anni360/image360_apero.html)
 
 ### la faille - το σφάλμα
-* [το σφάλμα](./faille/README.md)
+* [το σφάλμα](./faille/)
 
 <!-- ### sirtaki 360
 [Tours](https://eminet666.github.io/eminet_perso/view360/index_libert.html)
