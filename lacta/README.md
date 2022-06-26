@@ -1,15 +1,15 @@
 ### séries Lacta : Μικρές Ιστορίες Μεγάλης Αγάπης
 * [portail](https://www.youtube.com/user/LactaFilms)
 
+* Μικρές Ιστορίες Μεγάλης Αγάπης (Nέα επεισόδια)
+    * [Ep1 _ Κι εγώ σ' αγαπώ _ 11'](https://www.youtube.com/watch?v=n0oxjmuCsBI) |
+    * [Ep2 _ Swipe Right _ 15'](https://www.youtube.com/watch?v=DdM6N-QbSxo) | 
+    * [Ep3 _ Φίλες για πάντα _ 14'](https://www.youtube.com/watch?v=GFA2dBbmEOM)
+
 * [Η γεύση της αγάπης - Η ταινία](https://www.youtube.com/watch?v=k4L0he1WC0I)
 * [Κάνε το βήμα](https://www.youtube.com/watch?v=1DVeYgV97po) | 
 [2](https://www.youtube.com/watch?v=mqJL7CeMVM4&list=RDCMUCFQi0B8pIJsxFMBDoldEKMg&index=4) | 
 [3](https://www.youtube.com/watch?v=eFCqa1XBJOc)
-
-* Μικρές Ιστορίες Μεγάλης Αγάπης 
-[Ep1 _ Κι εγώ σ' αγαπώ](https://www.youtube.com/watch?v=n0oxjmuCsBI) |
-[Ep2 _ Swipe Right](https://www.youtube.com/watch?v=DdM6N-QbSxo) | 
-[Ep3 _ Φίλες για πάντα](https://www.youtube.com/watch?v=GFA2dBbmEOM)
 
 * [Από την αρχή](https://www.youtube.com/watch?v=6PGhGoNyEyw&list=RDCMUCFQi0B8pIJsxFMBDoldEKMg&index=3) | 
 [2](https://www.youtube.com/watch?v=lqpgL4n8_nI&list=RDCMUCFQi0B8pIJsxFMBDoldEKMg&index=23) | 
