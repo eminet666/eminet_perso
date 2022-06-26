@@ -3,7 +3,7 @@
 ### chaines youtube
 * [super easy greek](https://www.youtube.com/playlist?list=PLA5UIoabheFNO4VVJO7qL5lu7kJofgu5s)
 * [easy greek](https://www.youtube.com/playlist?list=PLA5UIoabheFOFpdSn-QNUDltHseSulwxs)
-* [greek easy for you to speak](https://www.youtube.com/channel/UCthXS8o5R6NuQ7mO_21Dbxw)
+* [greek easy for you to speak](./youtube/README.md)
 
 ### films grecs
 * [ERTflix](https://www.ertflix.gr/)
