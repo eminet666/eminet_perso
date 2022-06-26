@@ -1,5 +1,5 @@
-### séries Lacta : Μικρές Ιστορίες Μεγάλης Αγάπης
-* [portail](https://www.youtube.com/user/LactaFilms)
+### séries Lacta : Μικρές Ιστορίες, Μεγάλης Αγάπης
+* [Portail](https://www.youtube.com/user/LactaFilms)
 
 * Μικρές Ιστορίες Μεγάλης Αγάπης (Nέα επεισόδια)
     * [Ep1 _ Κι εγώ σ' αγαπώ _ 11'](https://www.youtube.com/watch?v=n0oxjmuCsBI) |
