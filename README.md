@@ -8,11 +8,10 @@
 ### films grecs
 * [ERTflix](https://www.ertflix.gr/)
 * [videa portail films grec streaming](https://videa.hu/cimkek/-537182)
-
 * [videa Από Έρωτα (Με υπότιτλους)](https://videa.hu/videok/film-animacio/atlvOVoY43CqdfG1)
 * [Έτερος Εγώ_1h39](https://www.youtube.com/watch?v=y3zho2aV2bs&list=PLszjEioNdP6jEzbnT4h4H7PsaCQ-pU0Hh&index=1)
 * [Το φιλί της Ζωής](https://www.youtube.com/watch?v=1Vzw5jko5_E&list=PLszjEioNdP6jEzbnT4h4H7PsaCQ-pU0Hh&index=3)
-* [το δείπνο του βοσκού(https://www.youtube.com/watch?v=pn9aa1FwKcs)
+* [το δείπνο του βοσκού](https://www.youtube.com/watch?v=pn9aa1FwKcs)
 * [Νύφες](https://www.youtube.com/watch?v=_xwQOJQJ46w&list=PLADh8o3XktBzJ4jgA6bJRj8HN1ZbZaEwg&index=14)
 * [Το τανγκό των Χριστουγέννων](https://www.youtube.com/watch?v=r4cXFGfqIKk&list=PLADh8o3XktBzJ4jgA6bJRj8HN1ZbZaEwg&index=14)
 * [boy on a dolphin _ sophia loren _ uk](https://www.youtube.com/watch?v=1MXtWFd76MI&list=PL_2rbqqxC44ucO-pOKrivN8jE5zDh7SBD)
