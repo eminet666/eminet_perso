@@ -21,10 +21,8 @@
 ### séries Lacta
 * [Μικρές Ιστορίες Μεγάλης Αγάπης](./lacta/README.md)
 
-
-### podcast France Culture
-* [quatre contre-sens philo](https://www.franceculture.fr/emissions/series/quatre-contresens-philosophiques)
-* [une histoire de la Grèce](https://www.franceculture.fr/emissions/serie/une-histoire-de-la-grece-en-quete-d-independance)
+### France Culture
+* [podcast](./franceculture/README.md)
 
 <!-- ### anniv Adele-Etienne 2022
 * [diner](./2022_anni360/image360_diner.html)
