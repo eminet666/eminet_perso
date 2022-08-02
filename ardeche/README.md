@@ -18,6 +18,6 @@
 * [ext_nord](./ext_nord.html)
 * [ext_nord_haut](./ext_nord_haut.html)
 * [ext_est](./ext_est.html)
-* [ext_sud](./ext_sud.html)
+* [ext_est_haut](./ext_est_haut.html)
 * [ext_entree](./ext_entree.html)
 * [ext_entree_haut](./ext_entree_haut.html)
