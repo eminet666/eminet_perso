@@ -4,6 +4,7 @@ Thumbs.db
 ~*.*
 
 # ignore files
+**/z_*.*
 
 # ignore rep
-/z_*
+**/z_*
