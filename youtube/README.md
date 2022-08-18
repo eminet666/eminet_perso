@@ -11,3 +11,7 @@
 * [ορθογραφία](https://www.youtube.com/watch?v=b94m-X9iOyQ&list=PLMXQDHzx-cFWGzpLsUeaSy2TEx6QsiTsK)
 * [Η ιστορία στους δρόμους](https://www.youtube.com/watch?v=5eCT7jqYukM&list=PLMXQDHzx-cFUZmQNBltqfsFC3R9Oo3egU)
 * [τραγούδια](https://www.youtube.com/watch?v=Ll9eB0XwZHE&list=PLMXQDHzx-cFVW5U7kFgzA3m3RNI-DLVQR)
+
+# wordwall exercises
+* Επίθετα σε -ύς, -ιά, -ύ [1](https://wordwall.net/el/resource/14165605/32-%CE%B5%CF%80%CE%AF%CE%B8%CE%B5%CF%84%CE%B1-%CF%83%CE%B5-%CF%8D%CF%82-%CE%B9%CE%AC-%CF%8D) | 
+[2](https://wordwall.net/el/resource/7810527/%CE%B5%CF%80%CE%AF%CE%B8%CE%B5%CF%84%CE%B1-%CF%83%CE%B5-%CF%8D%CF%82-%CE%B9%CE%AC-%CF%8D) | [3](https://wordwall.net/el/resource/25499263/%CE%B5%CF%80%CE%AF%CE%B8%CE%B5%CF%84%CE%B1-%CF%83%CE%B5-%CF%85%CF%82-%CE%B9%CE%B1-%CF%85) | [4](https://wordwall.net/el/resource/7688914/%CE%B5%CF%80%CE%AF%CE%B8%CE%B5%CF%84%CE%B1-%CF%83%CE%B5-%CF%8D%CF%82-%CE%B9%CE%AC-%CF%8D)
