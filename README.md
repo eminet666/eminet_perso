@@ -24,6 +24,9 @@
 ### France Culture
 * [podcast](./franceculture/README.md)
 
+### Lentas
+* [202210](./202210_lentas/lentas.html)
+
 <!-- ### anniv Adele-Etienne 2022
 * [diner](./2022_anni360/image360_diner.html)
 * [apero](./2022_anni360/image360_apero.html)
