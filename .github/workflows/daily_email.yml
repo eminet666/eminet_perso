@@ -1,20 +1,25 @@
 name: Envoi quotidien du dialogue
 on:
   schedule:
-    - cron: "0 20 * * *"  # Tous les jours à 8h
+    - cron: "0 5 * * *"  # Tous les jours à 8h
   workflow_dispatch:  # Pour déclencher manuellement
 
 jobs:
   send_email:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
       - uses: actions/checkout@v4
+
       - name: Install Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
+
       - name: Install dependencies
         run: pip install requests
+        
       - name: Générer et envoyer le dialogue
         run: python generate_and_send.py
         env:
