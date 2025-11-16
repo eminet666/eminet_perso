@@ -17,11 +17,11 @@ jobs:
           python-version: "3.10"
 
       - name: Installer dépendances
-        run: pip install smtplib email-validator
+        run: pip install email-validator
 
       - name: Envoyer e-mail Hello World
-        run: python send_hello_email.py
+        run: python workflow/send_hello_email.py
         env:
-          SMTP_USER: ${{ secrets.SMTP_USER }}        # ton identifiant SMTP
-          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }} # ton mot de passe SMTP
+          SMTP_USER: ${{ secrets.SMTP_USER }}        # identifiant SMTP
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }} # mot de passe SMTP
           EMAIL_TO: ${{ secrets.EMAIL_TO }}           # destinataire

@@ -21,7 +21,7 @@ jobs:
         run: pip install requests
         
       - name: Générer et envoyer le dialogue
-        run: python generate_and_send.py
+        run: python workflow/generate_and_send.py
         env:
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
